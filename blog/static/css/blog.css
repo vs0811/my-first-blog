@@ -4,6 +4,7 @@ h1 a, h2 a {
 }
 body {
     padding-left: 15px;
+    color: #056307;
 }
 .page-header {
     background-color: #10B513;
@@ -38,7 +39,15 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu {
+    color: #056307;
+    float: right;
+    font-family: 'Calibri', bold;
+    font-size: 15pt;
+    margin-right: 20px;
+}
+
+.top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
